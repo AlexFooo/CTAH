@@ -1,0 +1,508 @@
+            @font-face {
+                font-family: MotterCorpusStd;
+                src: url("../fonts/MotterCorpusStd-Regular.otf") format("opentype");
+            }
+            
+            @font-face {
+                font-family: NunitoSans;
+                src: url("../fonts/NunitoSans-Regular.ttf") format("opentype");
+            }
+            
+            * {
+                box-sizing: border-box;
+                margin: 0;
+            }
+            
+            body {
+                font-family: NunitoSans, sans-serif;
+            }
+            
+            .container {
+                margin: 0 auto;
+                max-width: 1264px;
+                padding: 0 20px;
+            }
+            
+            .header {
+                max-width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .logo {
+                font-family: MotterCorpusStd;
+                color: #0B4141;
+                font-size: 26px;
+                line-height: 31px;
+            }
+            
+            .nav {
+                display: flex;
+                align-items: center;
+            }
+            
+            li {
+                list-style-type: none;
+            }
+            
+            .nav-item {
+                margin-left: 24px;
+                a {
+                    text-decoration: none;
+                    color: #0B4141;
+                }
+                .head-btn {
+                    color: #FFCCBC;
+                }
+            }
+            
+            .nav-btn {
+                text-align: center;
+                margin-left: 48px;
+                background: #0B4141;
+                border-radius: 124px;
+                flex-direction: row;
+                padding: 12px 43px;
+            }
+            
+            .main-block-first {
+                margin: 0 auto;
+                max-width: 1264px;
+                padding: 0 20px;
+                background: no-repeat url(../img/ellipse.jpg);
+                background-position: left;
+                position: relative;
+                z-index: -2;
+            }
+            
+            .wrapper-first {
+                padding-bottom: 100px;
+                background: no-repeat url(../img/horse.svg);
+                text-align: center;
+                background-position: bottom;
+                height: 800px;
+                margin-top: 120px;
+            }
+            
+            .title-content {
+                position: relative;
+                font-family: MotterCorpusStd;
+                font-size: 120px;
+                line-height: 128px;
+                text-align: center;
+                color: #FFCCBC;
+                z-index: -1;
+            }
+            
+            .title-content-black {
+                position: relative;
+                font-family: MotterCorpusStd;
+                font-size: 120px;
+                line-height: 128px;
+                text-align: center;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-image: linear-gradient(180deg, #0B4141 55%, #0B1F1F 45%);
+            }
+            
+            .block-second {
+                position: relative;
+                margin: 0 auto;
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), #FFCCBC;
+                background-blend-mode: color-burn, normal;
+                mix-blend-mode: normal;
+            }
+            
+            .wrapper-second {
+                padding: 50px 50px;
+                background: no-repeat center url(../img/manyhorses.svg);
+                h2 {
+                    color: rgb(255, 255, 255);
+                    font-family: MotterCorpusStd;
+                    font-size: 80px;
+                    line-height: 96px;
+                    text-align: center;
+                }
+                p {
+                    font-family: NunitoSans;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                }
+            }
+            
+            .block-third {
+                position: relative;
+                background: rgba(11, 65, 65, 1);
+                z-index: 1;
+            }
+            
+            .block-third-wrapper {
+                display: flex;
+            }
+            
+            .left-side {
+                max-width: 50%;
+                font-family: NunitoSans;
+                h2 {
+                    font-weight: 900;
+                    font-size: 68px;
+                    line-height: 72px;
+                    color: rgba(255, 204, 188, 1);
+                    margin-top: 100px;
+                }
+                p {
+                    margin-top: 30px;
+                    max-width: 475px;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #FFCCBC;
+                }
+                a {
+                    text-decoration: none;
+                    color: rgba(255, 204, 188, 1);
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+            }
+            
+            .third-btn {
+                margin-top: 30px;
+                max-width: 230px;
+                text-align: center;
+                border-radius: 124px;
+                flex-direction: row;
+                padding: 12px 43px;
+                border: solid 1px #FFCCBC;
+            }
+            
+            .right-side {
+                max-width: 50%;
+                margin-top: 190px;
+                display: flex;
+            }
+            
+            .third-img {
+                position: relative;
+                z-index: 1;
+                img {
+                    width: 1200px;
+                    max-width: 96%;
+                }
+            }
+            
+            .block-fourth {
+                margin-top: 200px;
+            }
+            
+            .block-fourth-top {
+                display: flex;
+            }
+            
+            .fourth-wrapper {
+                max-width: 40%;
+                img {
+                    max-width: 800px;
+                    width: 96%;
+                }
+            }
+            
+            .content-fourth {
+                margin-left: 150px;
+                max-width: 40%;
+                position: static;
+                font-family: Nunito Sans;
+                h2 {
+                    color: rgba(255, 204, 188, 1);
+                    font-weight: 900;
+                    font-size: 68px;
+                    line-height: 72px;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #0B4141;
+                }
+            }
+            
+            .fourth-btn {
+                display: flex;
+                a {
+                    text-decoration: none;
+                    color: #0B4141;
+                    font-family: NunitoSans;
+                    margin-left: 20px;
+                    margin-top: 5px;
+                    text-align: center;
+                }
+            }
+            
+            .block-fourth-bottom {
+                margin-top: 100px;
+                display: flex;
+            }
+            
+            .content-fourth-bot {
+                max-width: 40%;
+                position: static;
+                font-family: Nunito Sans;
+                color: #0B4141;
+                h2 {
+                    font-weight: 900;
+                    font-size: 68px;
+                    line-height: 72px;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+            }
+            
+            .fourth-wrapper-bot {
+                max-width: 40%;
+                margin-left: 200px;
+                img {
+                    max-width: 800px;
+                    width: 96%;
+                }
+            }
+            
+            .block-five {
+                margin: 0 auto;
+                background: rgba(245, 245, 245, 0.6);
+            }
+            
+            .five-title {
+                max-width: 100%;
+                h2 {
+                    font-family: MotterCorpusStd;
+                    font-size: 80px;
+                    line-height: 96px;
+                    text-align: center;
+                    color: #FFCCBC;
+                }
+                p {
+                    font-family: NunitoSans;
+                    font-size: 24px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #0B4141;
+                }
+            }
+            
+            .five-wrapper {
+                position: relative;
+                text-align: center;
+                mix-blend-mode: overlay;
+                filter: blur(1px);
+                img {
+                    width: 1440px;
+                    max-width: 96%;
+                }
+            }
+            
+            .block-six {
+                margin: 0 auto;
+                background: url(../img/background-six.svg);
+            }
+            
+            .six-wrapper {
+                height: 100%;
+                background: no-repeat url(../img/sixConfettis.svg);
+            }
+            
+            .six-title {
+                padding-top: 100px;
+                font-family: NunitoSans;
+                font-weight: 900;
+                font-size: 68px;
+                line-height: 72px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .six-content {
+                width: 100%;
+                align-items: center;
+            }
+            
+            .block-review {
+                font-family: NunitoSans;
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                margin-bottom: 20px;
+                padding: 20px;
+                width: 33.3%;
+                background: rgba(255, 255, 255, 0.8);
+                backdrop-filter: blur(12px);
+                border-radius: 8px;
+                p {
+                    font-size: 13px;
+                    line-height: 18px;
+                    color: #0B4141;
+                }
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+            
+            .name-role {
+                margin-left: 10px;
+            }
+            
+            .review-wrapper {
+                display: flex;
+            }
+            
+            .seven-block {
+                background: center url(../img/confettis-seven.png);
+            }
+            
+            .seven-wrapper {
+                display: flex;
+            }
+            
+            .seven-left-side {
+                max-width: 50%;
+                img {
+                    max-width: 800px;
+                    width: 96%;
+                    margin-top: 100px;
+                }
+            }
+            
+            .seven-right-side {
+                margin-top: 100px;
+                max-width: 50%;
+                position: relative;
+                font-family: NunitoSans;
+                color: #0B4141;
+                left: 150px;
+                top: 176px;
+                h2 {
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 68px;
+                    line-height: 72px;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin-top: 30px;
+                }
+                a {
+                    color: rgba(11, 65, 65, 1);
+                    text-decoration: none;
+                    width: 230px;
+                    text-align: center;
+                    border-radius: 124px;
+                    flex-direction: row;
+                    padding: 12px 43px;
+                    border: solid 1px rgba(11, 65, 65, 1);
+                }
+            }
+            
+            .seven-btn {
+                margin-top: 30px;
+            }
+            
+            .eight-block {
+                background: no-repeat right url(../img/Light.png);
+            }
+            
+            .eight-wrapper {
+                display: flex;
+                margin: 0 auto;
+                padding: 50px 50px;
+            }
+            
+            .eight-left-side {
+                display: flex;
+                flex-direction: column;
+                max-width: 50%;
+                margin-top: 30px;
+                position: relative;
+                font-family: NunitoSans;
+                color: #0B4141;
+                margin-top: 100px;
+                h2 {
+                    margin-top: 30px;
+                    font-weight: 900;
+                    font-size: 68px;
+                    line-height: 72px;
+                }
+                p {
+                    margin-top: 30px;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+                a {
+                    color: rgba(11, 65, 65, 1);
+                    text-decoration: none;
+                    width: 230px;
+                    border-radius: 124px;
+                    flex-direction: row;
+                    padding: 12px 43px;
+                    border: solid 1px rgba(11, 65, 65, 1);
+                }
+            }
+            
+            .eight-logo {
+                text-align: center;
+            }
+            
+            .eight-btn {
+                margin-top: 30px;
+            }
+            
+            .eight-right-side {
+                max-width: 50%;
+                margin-top: 200px;
+                img {
+                    max-width: 1200px;
+                    width: 96%;
+                }
+            }
+            
+            .footer-block {
+                font-family: MotterCorpusStd;
+                background: #0B4141;
+            }
+            
+            .footer-wrapper {
+                padding-top: 150px;
+                h2 {
+                    font-size: 80px;
+                    line-height: 96px;
+                    text-align: center;
+                    color: #FFCCBC;
+                    margin: 48px 0px;
+                }
+            }
+            
+            .btn-footer {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                a {
+                    font-family: MotterCorpusStd;
+                    color: #FFCCBC;
+                    text-decoration: none;
+                    text-align: center;
+                    padding: 21px 40px;
+                    border: 2px solid #FFCCBC;
+                    box-sizing: border-box;
+                    border-radius: 300px;
+                }
+            }
+            
+            .end {
+                padding-top: 150px;
+                margin-left: 100px;
+                color: #FFCCBC;
+            }
