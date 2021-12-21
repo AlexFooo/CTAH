@@ -25,6 +25,7 @@ body {
 }
 
 .header {
+  margin-top: 10px;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,6 +73,9 @@ li {
 
 .nav-btn {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 48px;
   background: #0B4141;
   border-radius: 124px;
@@ -83,9 +87,7 @@ li {
 }
 
 .main-block-first {
-  margin: 0 auto;
-  max-width: 1264px;
-  padding: 0 20px;
+  max-height: calc(100vh - 40px);
   background: no-repeat url(../img/ellipse.jpg);
   background-position: left;
   position: relative;
@@ -146,6 +148,7 @@ li {
 }
 
 .wrapper-second p {
+  margin-top: 40px;
   font-family: NunitoSans;
   font-size: 24px;
   line-height: 32px;
@@ -179,6 +182,7 @@ li {
 }
 
 .left-side p {
+  margin-bottom: 40px;
   margin-top: 30px;
   max-width: 475px;
   font-size: 24px;
@@ -186,23 +190,14 @@ li {
   color: #FFCCBC;
 }
 
-.left-side a {
+.third-btn {
   text-decoration: none;
   color: #ffccbc;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
-}
-
-.third-btn {
-  margin-top: 30px;
-  max-width: 230px;
   text-align: center;
   border-radius: 124px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   padding: 12px 43px;
   border: solid 1px #FFCCBC;
 }
@@ -233,10 +228,17 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .fourth-wrapper {
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .fourth-wrapper img {
@@ -245,9 +247,7 @@ li {
 }
 
 .content-fourth {
-  margin-left: 150px;
-  max-width: 40%;
-  position: static;
+  max-width: 50%;
   font-family: Nunito Sans;
 }
 
@@ -256,12 +256,14 @@ li {
   font-weight: 900;
   font-size: 68px;
   line-height: 72px;
+  margin-bottom: 50px;
 }
 
 .content-fourth p {
   font-size: 24px;
   line-height: 32px;
   color: #0B4141;
+  margin-bottom: 30px;
 }
 
 .fourth-btn {
@@ -284,10 +286,17 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .content-fourth-bot {
-  max-width: 40%;
+  max-width: 50%;
   position: static;
   font-family: Nunito Sans;
   color: #0B4141;
@@ -297,6 +306,7 @@ li {
   font-weight: 900;
   font-size: 68px;
   line-height: 72px;
+  margin-bottom: 50px;
 }
 
 .content-fourth-bot p {
@@ -305,8 +315,7 @@ li {
 }
 
 .fourth-wrapper-bot {
-  max-width: 40%;
-  margin-left: 200px;
+  max-width: 50%;
 }
 
 .fourth-wrapper-bot img {
@@ -321,9 +330,11 @@ li {
 
 .five-title {
   max-width: 100%;
+  padding-top: 100px;
 }
 
 .five-title h2 {
+  margin-bottom: 80px;
   font-family: MotterCorpusStd;
   font-size: 80px;
   line-height: 96px;
@@ -332,6 +343,7 @@ li {
 }
 
 .five-title p {
+  margin-bottom: 50px;
   font-family: NunitoSans;
   font-size: 24px;
   line-height: 32px;
@@ -363,6 +375,7 @@ li {
 }
 
 .six-title {
+  margin-bottom: 80px;
   padding-top: 100px;
   font-family: NunitoSans;
   font-weight: 900;
@@ -391,7 +404,7 @@ li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 20px;
   width: 33.3%;
   background: rgba(255, 255, 255, 0.8);
@@ -404,6 +417,7 @@ li {
   font-size: 13px;
   line-height: 18px;
   color: #0B4141;
+  margin-bottom: 10px;
 }
 
 .block-review img {
@@ -429,6 +443,13 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .seven-left-side {
@@ -447,8 +468,7 @@ li {
   position: relative;
   font-family: NunitoSans;
   color: #0B4141;
-  left: 150px;
-  top: 176px;
+  margin-top: 250px;
 }
 
 .seven-right-side h2 {
@@ -479,7 +499,7 @@ li {
 }
 
 .seven-btn {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .eight-block {
@@ -490,8 +510,14 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 auto;
-  padding: 50px 50px;
 }
 
 .eight-left-side {
@@ -541,12 +567,12 @@ li {
 }
 
 .eight-btn {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .eight-right-side {
   max-width: 50%;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .eight-right-side img {
@@ -576,13 +602,14 @@ li {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .btn-footer a {
   font-family: MotterCorpusStd;
+  font-size: 32px;
   color: #FFCCBC;
   text-decoration: none;
   text-align: center;
@@ -591,6 +618,11 @@ li {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 300px;
+}
+
+.btn-footer a img {
+  max-width: 96%;
+  margin-right: 20px;
 }
 
 .end {
