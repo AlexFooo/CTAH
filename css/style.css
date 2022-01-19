@@ -321,7 +321,7 @@
     left: calc(50% - 80px);
   }
   .main-tablet p {
-    padding-top: 5px;
+    padding-top: 3px;
     font-family: Roboto;
     font-size: 6px;
     line-height: 5px;
@@ -440,7 +440,7 @@
   .third-btn {
     width: 48px;
     height: 14px;
-    padding-top: 3px;
+    padding-top: 4px;
     margin-bottom: 5px;
     text-decoration: none;
     border: 1px solid #000000;
