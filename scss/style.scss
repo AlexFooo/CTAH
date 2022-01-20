@@ -186,7 +186,8 @@
         .project {
             position: relative;
             max-width: 30%;
-            max-height: 526px;
+            min-height: 550px;
+            max-height: 700px;
             margin-top: 128px;
             margin-bottom: 116px;
             margin-left: 28px;
@@ -198,7 +199,7 @@
         }
         .project-date {
             margin-left: 11px;
-            margin-top: 100px;
+            margin-top: 20px;
             font-size: 14px;
             line-height: 16px;
             text-align: left;
@@ -206,7 +207,6 @@
         .project-content {
             margin-right: 22px;
             margin-left: 11px;
-            padding-bottom: 100px;
             text-align: left;
             margin-top: 10px;
             font-size: 20px;
@@ -236,11 +236,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 110px;
-            overflow: hidden;
-            position: absolute;
-            top: calc(50% - 90px);
-            left: calc(50% - 50px);
+            position: relative;
+            bottom: 20px;
             p {
                 text-align: center;
                 margin-top: 10px;
@@ -389,7 +386,6 @@
         .project {
             overflow: hidden;
             display: flex;
-            align-items: center;
             position: relative;
             max-width: 100%;
             margin-top: 10px;
@@ -397,19 +393,21 @@
             background: #FFE9C8;
             border: solid 1px black;
             img {
-                width: 41%;
+                width: 100%;
+                max-width: 41%;
+                margin-right: -24px;
             }
         }
         .project-date {
-            margin-top: 10px;
-            margin-left: 6px;
+            padding-top: 60px;
             font-size: 6px;
             line-height: 7px;
         }
         .project-content {
+            padding-left: -150px;
             margin-top: 6px;
             margin-right: 6px;
-            margin-left: 6px;
+            margin-bottom: 10px;
             font-size: 8px;
             line-height: 9px;
             color: #000000;
@@ -440,11 +438,12 @@
             align-items: center;
             text-align: center;
             width: 60px;
-            position: absolute;
-            transform: translateX(50%);
-            top: calc(50% - 50px);
-            left: calc(50% + 20px);
+            position: relative;
+            bottom: 30px;
+            left: 120px;
             p {
+                font-size: 10px;
+                line-height: 5px;
                 text-align: center;
                 margin-top: 6px;
                 text-transform: uppercase;
@@ -457,9 +456,9 @@
             border-radius: 50%;
             background-color: #FFCC00;
             img {
-                right: 4%;
+                right: calc(50% + 4px);
                 position: relative;
-                top: 18%;
+                top: calc(50% - 10px);
                 transform: translateX(10%);
                 width: 100%;
                 max-width: 10px;
@@ -592,7 +591,6 @@
         .project {
             overflow: hidden;
             display: flex;
-            align-items: center;
             position: relative;
             max-width: 100%;
             margin-top: 10px;
@@ -604,15 +602,16 @@
             }
         }
         .project-date {
-            margin-top: 10px;
-            margin-left: 6px;
+            margin-top: -30px;
+            margin-left: 22px;
             font-size: 6px;
             line-height: 7px;
         }
         .project-content {
-            margin-top: 6px;
-            margin-right: 6px;
-            margin-left: 6px;
+            width: 100%;
+            margin-right: 40px;
+            margin-left: 22px;
+            margin-bottom: 10px;
             font-size: 8px;
             line-height: 9px;
             color: #000000;
@@ -627,7 +626,7 @@
             width: 24px;
             height: 10px;
             padding-top: 3px;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
             text-decoration: none;
             border: 1px solid #000000;
             background-color: blue;
@@ -645,9 +644,11 @@
             width: 60px;
             position: absolute;
             transform: translateX(50%);
-            top: calc(50% - 36px);
+            top: calc(50% - 56px);
             left: calc(50% + 8px);
             p {
+                font-size: 8px;
+                line-height: 9px;
                 text-align: center;
                 margin-top: 6px;
                 text-transform: uppercase;
@@ -660,10 +661,10 @@
             border-radius: 50%;
             background-color: #FFCC00;
             img {
-                right: 4%;
+                transform: translateX(-50%);
+                left: calc(50% - 14px);
+                top: calc(50% - 12px);
                 position: relative;
-                top: 18%;
-                transform: translateX(10%);
                 width: 100%;
                 max-width: 6px;
             }

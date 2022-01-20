@@ -22,16 +22,17 @@ const news = [{
 const project = news.map(item => (
     `<div class="project">
     <img src="${item.img}" alt="">
+    <div class="project-container">
+    <div class="project-icon">
+        <img src="${item.icon}" alt="">
+    </div>
+    <p>${item.name}</p>
+</div>
     <div class="project-content">
         <p class="project-date">${item.date}</p>
         <p class="project-content">${item.content}</p>
         <a class="project-btn" href="#">Читати дали</a>
-        <div class="project-container">
-            <div class="project-icon">
-                <img src="${item.icon}" alt="">
-            </div>
-            <p>${item.name}</p>
-        </div>
+       
     </div>
 </div>`
 ))
