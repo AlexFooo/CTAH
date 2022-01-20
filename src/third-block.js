@@ -21,7 +21,10 @@ const news = [{
 
 const project = news.map(item => (
     `<div class="project">
+    <div class="left-project">
     <img src="${item.img}" alt="">
+    </div>
+    <div class="right-project">
     <div class="project-container">
     <div class="project-icon">
         <img src="${item.icon}" alt="">
@@ -34,6 +37,8 @@ const project = news.map(item => (
         <a class="project-btn" href="#">Читати дали</a>
        
     </div>
+    </div>
+    
 </div>`
 ))
 project_wrapper.insertAdjacentHTML('afterbegin', project.join(''))
