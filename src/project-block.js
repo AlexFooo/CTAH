@@ -16,6 +16,7 @@ const news = [{
     icon: "./img/practic-icon.png",
     content: "На прикарпатті під час мандрівного docudays ua говоритимуть про права дітей",
     date: "02.11.20"
+
 }]
 
 
@@ -39,6 +40,7 @@ const project = news.map(item => (
     </div>
     </div>
     
-</div>`
+</div>
+ `
 ))
 project_wrapper.insertAdjacentHTML('afterbegin', project.join(''))
