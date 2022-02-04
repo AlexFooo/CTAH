@@ -370,8 +370,8 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 24px;
   }
   .work-content-first {
     background: rgba(255, 30, 30, 0.5);
@@ -505,7 +505,7 @@
   .learn-wrapper .learn-content img {
     width: 100%;
     max-width: 140px;
-    height: 150px;
+    height: 132px;
   }
   .content-discipline {
     display: -webkit-box;
@@ -541,6 +541,7 @@
   }
   .partners {
     background: white;
+    padding-bottom: 50px;
   }
   .partners-title {
     font-family: Roboto;
@@ -567,10 +568,67 @@
             justify-content: center;
   }
   .partners-img img {
-    margin-left: 20px;
+    margin-left: 40px;
     width: 100%;
     max-width: 13%;
     max-height: 112px;
+  }
+  .footer {
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFFFFF;
+    padding-bottom: 50px;
+  }
+  .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .footer-contacts {
+    margin-left: 40px;
+    margin-top: 25px;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 30%;
+  }
+  .contacts-address {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .footer-map {
+    margin-left: 30px;
+    margin-top: 25px;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 60%;
+  }
+  .map {
+    margin-top: 25px;
+  }
+  .footer-navigation {
+    margin-left: 88px;
+    margin-top: 25px;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 30%;
+  }
+  .navigation-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .navigation-list li {
+    margin-top: 25px;
+  }
+  .navigation-list li a {
+    text-decoration: none;
+    color: #FFFFFF;
   }
 }
 
