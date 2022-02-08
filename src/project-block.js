@@ -37,7 +37,7 @@ const project = news.map(item => (
 </div>
     <div class="project-content">
         <p class="project-date">${item.date}</p>
-        <p class="project-content">${item.content}</p>
+        <p class="project-text">${item.content}</p>
         <a class="project-btn" href="#">Читати дали</a>
            </div>
     </div>
