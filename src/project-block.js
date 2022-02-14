@@ -24,6 +24,7 @@ const project = news.map(item => (
 
     `
     <div class="project">
+    
     <a href="#" class="project-card">
     <div class="left-project">
     <img src="${item.img}" alt="">
@@ -42,6 +43,7 @@ const project = news.map(item => (
            </div>
     </div>
     </a>
+    
     </div>
     
     
