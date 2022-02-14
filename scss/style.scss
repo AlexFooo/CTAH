@@ -1100,35 +1100,35 @@
                     text-align: center;
                     color: #FFFFFFE5;
                     font-weight: 900;
-                    font-size: 60px;
+                    font-size: 100px;
                     line-height: 120px;
                 }
                 img {
                     position: absolute;
                     z-index: 1;
-                    max-height: 160px;
-                    max-width: 146px;
+                    max-height: 280px;
+                    max-width: 240px;
                     width: 100%;
-                    left: calc(50% + 14px);
-                    top: calc(50% - 28px);
+                    left: calc(50% + 25px);
+                    top: calc(50% - 58px);
                     transform: translateX(-50%);
                 }
             }
             .main-tablet {
                 position: absolute;
                 width: 100%;
-                top: calc(50% + 80px);
-                left: calc(50% - 80px);
+                top: calc(50% + 120px);
+                left: calc(50% - 140px);
                 p {
                     padding-top: 3px;
                     font-family: Roboto;
-                    font-size: 6px;
-                    line-height: 5px;
+                    font-size: 12px;
+                    line-height: 12px;
                     text-align: center;
                     letter-spacing: 0.02em;
                     color: #1F1F1F;
-                    width: 64px;
-                    height: 20px;
+                    width: 96px;
+                    height: 32px;
                     background: #FFCC00;
                     border: 2px solid #000000;
                     transform: rotate(-18.25deg);
