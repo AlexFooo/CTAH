@@ -1340,7 +1340,8 @@
   .main-content img {
     position: absolute;
     z-index: 1;
-    max-height: 280px;
+    margin-bottom: 20px;
+    max-height: 200px;
     max-width: 240px;
     width: 100%;
     left: calc(50% + 25px);
@@ -1622,7 +1623,6 @@
     max-height: 65px;
   }
   .footer-map {
-    margin-left: 42px;
     margin-top: 25px;
     font-size: 12px;
     line-height: 8px;
@@ -1634,8 +1634,8 @@
     margin-top: 25px;
   }
   .map-frame {
-    width: 155px;
-    height: 80px;
+    width: 140px;
+    height: 100px;
   }
   .footer-wrapper {
     padding-bottom: 25px;
@@ -1654,19 +1654,19 @@
   }
   .footer-contacts {
     max-width: 40%;
-    margin-left: 40px;
     font-size: 12px;
     line-height: 12px;
     text-align: left;
     letter-spacing: 0.1em;
   }
   .contacts-address {
-    margin-top: 25px;
+    letter-spacing: 0.1em;
+    margin-top: 18px;
     font-size: 10px;
     line-height: 10px;
   }
   .footer-navigation {
-    margin-top: -72px;
+    margin-top: -62px;
     margin-right: 0;
     font-size: 12px;
     line-height: 8px;
